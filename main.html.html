@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+	background-image: url("https://study.com/cimages/course-image/pssa-science-grade-8-test-prep-practice_233026_large.jpg");
+	background-repeat: no-repeat;
+	background-size: 1300px 750px;
+}
+h1{
+	color: white;
+	text-align: center;
+}
+h2{
+	color: white;
+	text-align: center;
+}
+h3{
+	color: white;
+	text-align: center;
+}
+p{
+	color: white;
+	font-family: garamond;
+	font-size: 20px;
+}
+a{
+	color: white;
+	font-family: times;
+}
+
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+#Biology {background-color:red;}
+#Chemistry {background-color:green;}
+#CIS {background-color:blue;}
+#Environmental Sciences {background-color:orange;}
+#Mathematics {background-color:yellow;}
+#Medicine {background-color:pink;}
+#Physics {background-color:violet;}
+</style>
+</head>
+
+
+<body>
+	<h1> Temple University </h1>
+	<h2> Spring 2018 URP Faculty Projects </h2> 
+	<h3> College of Science and Technology </h3>
+	<!--<form>
+		<input type="button" value="Biology" onclick="openWin()">
+		<input type="button" value="Chemistry" onclick="openWin()">
+		<input type="button" value="CIS" onclick="openWin()">
+		<input type="button" value="Environmental Sciences" onclick="openWin()">
+		<input type="button" value="Mathematics" onclick="openWin()">
+		<input type="button" value="Medicine" onclick="openWin()">
+		<input type="button" value="Physics" onclick="openWin()">
+	</form>-->
+
+<div id="Biology" class="tabcontent">
+  <h4>Biology</h4>
+  <p><a href="https://canvas.temple.edu"> Allen Nicholson</a>
+	<a href="https://canvas.temple.edu"> Amy Freestone </a>
+	<a href="https://canvas.temple.edu"> Ananias Escalante </a>
+</p>
+</div>
+
+<div id="Chemistry" class="tabcontent">
+  <h4>Chemistry</h4>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="CIS" class="tabcontent">
+  <h4>CIS</h4>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<div id="Environmental Sciences" class="tabcontent">
+  <h4>Environmental Sciences</h4>
+  <p>Oslo is the capital of Norway.</p>
+</div>
+
+<div id="Mathematics" class="tabcontent">
+  <h4>Mathematics</h4>
+  <p>Oslo is the capital of Norway.</p>
+</div>
+
+<div id="Medicine" class="tabcontent">
+  <h4>Medicine</h4>
+  <p>Oslo is the capital of Norway.</p>
+</div>
+
+<div id="Physics" class="tabcontent">
+  <h4>Physics</h4>
+  <p>Oslo is the capital of Norway.</p>
+</div>
+
+<button class="tablink" onclick="openProfs('Biology', this, 'red')" id="defaultOpen">Biology</button>
+<button class="tablink" onclick="openProfs('Chemistry', this, 'green')">Chemistry</button>
+<button class="tablink" onclick="openProfs('CIS', this, 'blue')">CIS</button>
+<button class="tablink" onclick="openProfs('Environmental Sciences', this, 'orange')">Environmental Sciences</button>
+<button class="tablink" onclick="openProfs('Mathematics', this, 'yellow')" id="defaultOpen">Mathematics</button>
+<button class="tablink" onclick="openProfs('Medicine', this, 'pink')">Medicine</button>
+<button class="tablink" onclick="openProfs('Physics', this, 'violet')">Physics</button>
+
+<script>
+function openProfs(profName,elmnt,color) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+    }
+    document.getElementById(profName).style.display = "block";
+    elmnt.style.backgroundColor = color;
+
+}
+
+document.getElementById("defaultOpen").click();
+</script>
+
+	<!--<button type="button1" onclick= "document.getElementById('demo1').style.display='block'"> Biology </button>
+	<button type="button2" onclick= "document.getElementById('demo2').style.display='block'"> Chemistry </button>
+	<button type="button3" onclick= "document.getElementById('demo3').style.display='block'"> CIS </button>
+	<button type="button4" onclick= "document.getElementById('demo4').style.display='block'"> Environmental Sciences </button>
+	<button type="button5" onclick= "document.getElementById('demo5').style.display='block'"> Mathematics </button>
+	<button type="button6" onclick= "document.getElementById('demo6').style.display='block'"> Medicine </button>
+	<button type="button7" onclick= "document.getElementById('demo7').style.display='block'"> Physics </button>
+
+	<p id="demo1" style="display:none"> 
+	<a href="https://canvas.temple.edu"> Allen Nicholson</a>
+	<a href="https://canvas.temple.edu"> Amy Freestone </a>
+	<a href="https://canvas.temple.edu"> Ananias Escalante </a>
+</p>
+	<p id="demo2" style="display:none"> molecules are life </p>
+	<p id="demo3" style="display:none"> coding is life </p>
+	<p id="demo4" style="display:none"> hug a tree </p>
+	<p id="demo5" style="display:none"> c equals m c squared </p>
+	<p id="demo6" style="display:none"> white coats </p>
+	<p id="demo7" style="display:none"> F equals m a </p> -->
+
+
+
+
+	<p> Professor Abdelkarim
+Sabri: </p>
+
+	<img src = "https://medicine.temple.edu/sites/medicine/files/styles/320x430/public/photo/sabri_ak_profile.jpg?itok=Nb4oIdDy" width ="104" height="142">
+	<p> </p>
+	<a href="https://canvas.temple.edu"> This is a link </a>
+
+</body>
+</html>
