@@ -1,0 +1,23 @@
+html {
+	font-family: Garamond;
+	font-size: 100 px;
+	text-align: center;
+}
+body {
+	padding: 10px 100px;
+	background-color: lightblue;
+	}
+
+h1 {
+	color: black;
+	text-align: left;
+	}
+p 	{
+	display: block;
+	color: black;
+	font-size: 25px;
+	}
+
+table, th, td {
+    border: 1px solid black;
+	
